@@ -1,10 +1,10 @@
 import fitz, re
 
 # Path to your transcript of records (with .pdf extension)
-file_path = "przebieg.pdf"
+file_path = ""
 
 # Your current semester, example: "Semestr letni 2024/2025" or "Summer semester 2024/2025" (depends on the language of your transcript)
-current_semester = "Semestr letni 2024/2025"
+current_semester = ""
 
 if not file_path.strip():
     print("Error: You must specify the file path in 'file_path' variable.")
